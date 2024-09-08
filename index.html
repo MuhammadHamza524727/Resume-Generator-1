@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <main class="main">
+        
+
+        <div class="form1">
+            <img src="assets/832.jpg" alt="Profile" class="Profile">
+            <p id="nameT1" class="name-profile">Muhammad Hamza</p>
+            <p id="contactT" class="contact">+923146088468,+923146088469</p>
+             <p  class="address addressT">kmc,House123,sector 123,Ali Nagar ,Orangi Town Karachi.</p>
+             <!-- <hr class="hr"> -->
+              <h1 class="responsive-heading">Social Links</h1>
+             <p id="fbT" class="link1 "><a href="#">https://www.facebook.com</a></p>
+             <p id="instaT" class="link1"><a href="#">https://www.instagram.com</a></p>
+             <p id="linkT" class="link1"><a href="#">https://www.linkdin.com</a></p>
+
+        </div>
+        <div class="form2">
+            <h1 id="nameT2" class="form2-name">Muhammad Hamza</h1>
+
+
+
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="cardname">Education</h2>
+                    <button id="toggleButton">Show Details</button>
+                </div>
+                <div class="card-body" id="cardBody">
+                    <p id="eduT">Web Developer</p>
+                    <p id="eduT">Typescript</p>
+                    <p id="eduT">Cyber Security fundamental knowledge</p>
+                    <p id="eduT">Run my Own Bussiness</p>                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="cardname">Work Experience</h2>
+                    <button id="toggleButton">Show Details</button>
+                </div>
+                <div class="card-body" id="cardBody">
+                    <p id="weT">Web Developer</p>
+                    <p id="weT">Typescript</p>
+                    <p id="weT">Cyber Security fundamental knowledge</p>
+                    <p id="weT">Run my Own Bussiness</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="cardname">Skills</h2>
+                    <button id="toggleButton">Show Details</button>
+                </div>
+                <div class="card-body" id="cardBody">
+                    <p id="skilT">Web Developer</p>
+                    <p id="skilT">Typescript</p>
+                    <p id="skilT">Cyber Security fundamental knowledge</p>
+                    <p id="skilT">Run my Own Bussiness</p>
+                   
+                </div>
+            </div>
+            <button onclick="printCV()" class="btn-generator">Generate Resume</button>
+
+        </div>
+
+    </main>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
